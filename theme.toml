@@ -1,17 +1,17 @@
-name = "hello-friend-ng"
+name = "mateusfccp.me"
 license = "MIT"
-licenselink = "https://github.com/rhazdon/hugo-theme-hello-friend-ng/blob/master/LICENSE.md"
-description = "A simple theme for Hugo. That's it."
+licenselink = "https://github.com/mateusfccp/mateusfccp.me-hugo/blob/master/LICENSE.md"
+description = "Pretty basic theme for Hugo that covers my site current needs."
 tags = ["blog", "clean", "customizable", "dark", "highlighting", "light", "minimal", "monochromatic", "multilingual", "personal", "responsive", "simple", "technical"]
 features = ["blog", "shortcode", "syntax highlighting"]
-min_version = 0.30
+min_version = 0.54
 
 [author]
-  name = "Djordje Atlialp"
-  homepage = "https://atlialp.com"
-  twitter = "https://twitter.com/rhazdon"
+  name = "Mateus Felipe Cordeiro Caetano Pinto"
+  homepage = "http://mateusfccp.me"
+  twitter = "https://twitter.com/mateusfccp"
 
 [original]
-  name = "hello-friend"
-  homepage = "https://github.com/panr/hugo-theme-hello-friend"
-  repo = "https://github.com/panr/hugo-theme-hello-friend"
+  name = "hello-friend-ng"
+  homepage = "ttps://github.com/rhazdon/hugo-theme-hello-friend-ng"
+  repo = "https://github.com/rhazdon/hugo-theme-hello-friend-ng"

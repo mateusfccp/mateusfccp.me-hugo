@@ -5,6 +5,7 @@
   justify-content: center;
   position: relative;
   padding: 20px;
+  transition: color ease-in-out .3s, background-color ease-in-out .3s;
 
   .dark-theme & {
     background: #252627;

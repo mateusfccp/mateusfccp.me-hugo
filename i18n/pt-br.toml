@@ -34,3 +34,13 @@ other = "Índice"
 [wordCount]
 one   = "Uma palavra"
 other = "{{ .Count }} palavras"
+
+# Asides
+[note]
+other = "Nota"
+
+[warning]
+other = "Atenção"
+
+[danger]
+other = "Cuidado!"

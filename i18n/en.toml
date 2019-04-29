@@ -34,3 +34,13 @@ other = "Table of Contents"
 [wordCount]
 one   = "One Word"
 other = "{{ .Count }} Words"
+
+# Asides
+[note]
+other = "Note"
+
+[warning]
+other = "Warning"
+
+[danger]
+other = "Danger!"

@@ -244,7 +244,8 @@ hr {
   width: 100%;
   border: none;
   background: $light-border-color;
-  height: 1px;
+  height: 2px;
+  margin: 2rem 0;
 
   .dark-theme & {
     background: $dark-border-color;

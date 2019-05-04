@@ -29,7 +29,7 @@ one   = "Um minuto"
 other = "{{ .Count }} minutos"
 
 [tableOfContents]
-other = "Índice"
+other = "Sumário"
 
 [wordCount]
 one   = "Uma palavra"

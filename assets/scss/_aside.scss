@@ -1,6 +1,10 @@
 .aside {
     padding: 1rem 2rem;
-    background-color: $light-color;
+    background-color: $light-background-secondary;
+
+    .dark-theme & {
+	background: $light-color;
+    }
 
     .aside-header {
 	display: flex;

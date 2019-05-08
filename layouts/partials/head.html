@@ -20,18 +20,12 @@
 {{ end }}
 
 <!-- CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
-    type="text/css">
-
 {{ $options := (dict "targetPath" "main.css" "outputStyle" "compressed" "enableSourceMap" true) }}
-{{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}">
-
-{{ range $val := $.Site.Params.customCSS }}
-{{ if gt (len $val) 0 }}
-<link rel="stylesheet" type="text/css" href="{{ $val }}">
-{{ end }}
-{{ end }}
+{{ $style := resources.Get "scss/main.scss" | resources.ToCSS $options | resources.Minify }}
+<style>
+ {{ $style.Content | safeCSS }}
+ {{ (resources.Get "css/flag-icon.min.css").Content | safeCSS }}
+</style>
 
 <!-- Icons -->
 {{- partial "favicons.html" }}
